@@ -1,0 +1,105 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Georgia, 'Times New Roman', Times, serif;   
+}
+section
+{
+position: relative;
+widows: 100px;
+min-height: 100px;
+background: rgb(1, 21, 22);
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+section .content
+{
+    position: relative;
+    padding: 100px 50px 100px 50px;
+    box-sizing: border-box;
+}
+section .content h2
+{
+    color: cadetblue;
+    font-size: 2em;
+    font-weight: 800;
+}
+section .content p
+{
+   color: rgb(134, 231, 7);
+   font-size: 1.2em;
+}
+section .content  a
+{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background: rgb(143, 79, 36);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+section .imgBx
+{
+    position: relative;
+    padding-right: 100px;
+}
+section .imgBx img
+{
+  max-width: 500px;  
+}
+.sol 
+{
+  position: absolute;
+  bottom: 75px;
+  left: 150px;
+  display: flex;
+}
+.sol li
+{
+    list-style: none;
+}
+.sol li a
+{
+    text-decoration: none;
+    color: darkgrey;
+    margin-right: 30px;
+    font-size: 0.9em;
+}
+.sol li a:hover
+{
+    color: darkred;
+}
+.nav
+{
+  position: absolute;
+  top: 75px;
+  left: 150px;
+  display: flex;
+  border-left: 5px solid pink ;
+  padding-left: 20px;
+}
+.nav li
+{
+    list-style: none;
+}
+.nav li a
+{
+    text-decoration: none;
+    color: darkgrey;
+    margin-right: 30px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.nav li a.active,
+.nav li a:hover
+{
+    color: darkred;
+}
