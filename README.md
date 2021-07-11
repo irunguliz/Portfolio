@@ -14,7 +14,7 @@ It runs properly as long as you haave strong network connection.
 <a href="https://irunguliz.github.io/Portfolio/"> my portfolio</a>
 
 # Portfolio image
-<img src= "Images/Portfolio.png">
+<img src= "Images/Landing.png">
 
 # License
 MIT License
